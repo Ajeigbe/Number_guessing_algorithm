@@ -11,6 +11,7 @@ BEGIN
     DISPLAY "Welcome to the Number Guessing Game!"
     DISPLAY "I have chosen a number between 1 and 10. Can you guess it?"
     SECRET_NUMBER = 1,2,3,4,5,6,7,8,9,10
+# It might be cleaner to replace that line with a random number function that picks one number within the range of 1–10
     REPEAT
         PROMPT user to "Enter your guess: "
         READ USER_GUESS
@@ -27,3 +28,5 @@ BEGIN
 
     DISPLAY "Game Over. Thanks for playing!"
 END
+
+
